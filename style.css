@@ -103,18 +103,5 @@ ul a:hover {
   top: 0;
   left: 0;
   z-index: -1;
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .bg__video {
-    width: auto;
-    height: 100%;
-  }
-}
-
-@media (min-aspect-ratio: 16/9) {
-  .bg__video {
-    width: auto;
-    height: 100%;
-  }
+  width: 100%;
 }
